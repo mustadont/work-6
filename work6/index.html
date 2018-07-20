@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="common.js"></script>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div class="block1">
+		<p>Верхний левый угол
+		<input type="range" min="0" max="100" value="0" id="rtl" oninput="fun1()">
+		<input type="text" id="ttl" value="0">
+		</p>
+	</div>
+	<div class="block2">
+		<p>Верхний правый угол
+		<input type="range" min="0" max="100" value="0" id="rtr" oninput="fun1()">
+		<input type="text" id="ttr" value="0">
+		</p>
+	</div>
+	<div class="block3">
+		<p>Нижний правый угол
+		<input type="range" min="0" max="100" value="0" id="rbr" oninput="fun1()">
+		<input type="text" id="tbr" value="0">
+		</p>
+	</div>
+	<div class="block4">
+		<p>Нижний левый угол
+		<input type="range" min="0" max="100" value="0" id="rbl" oninput="fun1()">
+		<input type="text" id="tbl" value="0">
+		</p>
+	</div>
+	<div id="block"></div>
+
+</body>
+</html>
